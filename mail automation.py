@@ -53,7 +53,7 @@ def signin():
         # Make sure to give app access in your Google account
         server.login(entry1.get(), entry2.get())
         email = EmailMessage()
-        email['From'] = 'thejaswinsivakumar123@gmail.com'
+        email['From'] = '123@gmail.com'
         email['To'] = receiver
         email['Subject'] = subject
         email.set_content(message)
@@ -61,8 +61,8 @@ def signin():
 
 
     email_list = {
-        'rock': 'thejas2002@yahoo.in',
-        'shiva': 'shivjig@yahoo.com'
+        'rock': '02@yahoo.in',
+        'ram': 'ram@yahoo.com'
     }
 
     def get_email_info():
